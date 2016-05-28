@@ -15,24 +15,6 @@
  '[clojure.java.io               :as io]
  '[boot.pod                      :as pod])
 
-(def ^:private common-opts
-  {:cache-analysis true
-   :warnings {:single-segment-namespace false}
-   :compiler-stats true
-   :parallel-build true})
-
-(def none-opts
-  (->> {:optimizations :none
-        :source-map true
-        :source-map-timestamp true}
-       (merge common-opts)))
-
-(def simple-opts
-  (->> {:optimizations :simple
-        :closure-defines {:goog.DEBUG false}
-        :elide-asserts true}
-       (merge common-opts)))
-
 (def +version+ "0.0.1-SNAPSHOT")
 
 (task-options!
