@@ -2,10 +2,10 @@
 
 [![Clojars Project](https://img.shields.io/clojars/v/untangled-starter.svg)](https://clojars.org/untangled-starter)
 
-ReactBootstrap wrapper macros and some syntactical sugar for Om Next.
+[ReactBootstrap](https://react-bootstrap.github.io/) wrapper macros and some syntactical sugar for Om Next.
 
 You can use using the macros defined in `untangled-starter.bootstrap :as bs` you
-freely mix Sablono and ReactBootstrap with ClojureScript-y API.
+freely mix [Sablono](https://github.com/r0man/sablono) and ReactBootstrap with ClojureScript-y API.
 
 For example, a navbar could look like this.
 ```cljs
@@ -21,7 +21,7 @@ For example, a navbar could look like this.
 ```
 
 With `untangled-starter.aum` you get a concise syntax for creating Om Next components
-and their associated factory functions.
+and their associated factory functions with a sablono compiler wrapping the render body.
 
 For example, the following two are equivalent.
 
