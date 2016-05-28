@@ -33,12 +33,12 @@
         :elide-asserts true}
        (merge common-opts)))
 
-(def +version+ "0.0.1")
+(def +version+ "0.0.1-SNAPSHOT")
 
 (task-options!
- pom {:project 'rum-mdl
+ pom {:project 'untangled-starter
       :version +version+
-      :description "ReactBootstrap component and some syntactical sugar."
+      :description "ReactBootstrap wrapper and some syntactical sugar for Om Next."
       :url "https://github.com/currentoor/untangled-starter"
       :scm {:url "https://github.com/currentoor/untangled-starter"}
       :license {"The MIT License (MIT)" "https://opensource.org/licenses/MIT"}}
