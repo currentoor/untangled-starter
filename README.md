@@ -4,7 +4,7 @@
 
 [ReactBootstrap](https://react-bootstrap.github.io/) wrapper macros and some syntactical sugar for Om Next.
 
-You can use using the macros defined in `untangled-starter.bootstrap :as bs` you
+You can use the macros defined in `untangled-starter.bootstrap :as bs` and
 freely mix [Sablono](https://github.com/r0man/sablono) and ReactBootstrap with ClojureScript-y API.
 
 For example, a navbar could look like this.
