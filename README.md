@@ -23,7 +23,7 @@ For example, a navbar could look like this.
 With `untangled-starter.aum` you get a concise syntax for creating Om Next components
 and their associated factory functions with a sablono compiler wrapping the render body.
 
-For example, the following two are equivalent.
+For example, the following two are roughly equivalent.
 
 ```cljs
 (defcomponent Widget {:keyfn :id}
